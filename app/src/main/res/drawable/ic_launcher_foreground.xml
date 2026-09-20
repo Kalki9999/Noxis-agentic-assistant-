@@ -1,0 +1,57 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Arc Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#4000E5FF"
+        android:strokeWidth="2.5"
+        android:pathData="M54,26 A28,28 0 1,1 53.9,26" />
+
+    <!-- Outer Segmented Tech Brackets -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M34,34 A28,28 0 0,1 74,34" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M74,74 A28,28 0 0,1 34,74" />
+
+    <!-- Mid Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#8000B0FF"
+        android:strokeWidth="1.8"
+        android:pathData="M54,34 A20,20 0 1,1 53.9,34" />
+
+    <!-- Radiating Reactor Coils / Spoke Notches -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:pathData="M54,26 L54,36 M54,72 L54,82 M26,54 L36,54 M72,54 L82,54 M34,34 L41,41 M74,74 L67,67 M74,34 L67,41 M34,74 L41,67" />
+
+    <!-- Inner Core Ring -->
+    <path
+        android:fillColor="#1500E5FF"
+        android:strokeColor="#80D8FF"
+        android:strokeWidth="2"
+        android:pathData="M54,42 A12,12 0 1,1 53.9,42" />
+
+    <!-- Center Nexus Energy Point -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,48 A6,6 0 1,1 53.9,48" />
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M54,51 A3,3 0 1,1 53.9,51" />
+</vector>
+
